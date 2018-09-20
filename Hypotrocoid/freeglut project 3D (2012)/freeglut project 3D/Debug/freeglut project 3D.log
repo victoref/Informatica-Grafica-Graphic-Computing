@@ -1,7 +1,32 @@
-﻿Compilación iniciada a las 17/09/2018 14:07:24.
-     1>Proyecto "D:\2VIDEOJUEGOS\INFORMATICA GRAFICA\Practica2 IG\IG2\freeglut project 3D (2012)\freeglut project 3D\freeglut project 3D.vcxproj" en el nodo 2 (Build destinos).
-     1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\2VIDEOJUEGOS\INFORMATICA GRAFICA\Practica2 IG\IG2\freeglut project 3D (2012)\Debug\freeglut project 3D.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\2VIDEOJUEGOS\INFORMATICA GRAFICA\Practica2 IG\IG2\freeglut project 3D (2012)\freeglut\lib\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\2VIDEOJUEGOS\INFORMATICA GRAFICA\Practica2 IG\IG2\freeglut project 3D (2012)\Debug\freeglut project 3D.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\2VIDEOJUEGOS\INFORMATICA GRAFICA\Practica2 IG\IG2\freeglut project 3D (2012)\Debug\freeglut project 3D.lib" /MACHINE:X86 Debug\Cara.obj
+﻿Compilación iniciada a las 20/09/2018 11:36:04.
+     1>Proyecto "D:\GITHUB\IG\Informatica-Grafica-Graphic-Computing-\Hypotrocoid\freeglut project 3D (2012)\freeglut project 3D\freeglut project 3D.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\GITHUB\IG\Informatica-Grafica-Graphic-Computing-\Hypotrocoid\freeglut project 3D (2012)\freeglut\include\\" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Clases_Practica0\Cara.cpp ..\..\Clases_Practica0\FalsoTetraedro.cpp ..\..\Clases_Practica0\Malla.cpp ..\..\Clases_Practica0\PuntoVector3D.cpp ..\..\Clases_Practica0\VerticeNormal.cpp Camara.cpp Coche.cpp Cono.cpp Hipotrocoide.cpp main.cpp
+         main.cpp
+     1>d:\github\ig\informatica-grafica-graphic-computing-\hypotrocoid\freeglut project 3d (2012)\freeglut project 3d\camara.h(37): warning C4305: 'inicializando' : truncamiento de 'double' a 'GLfloat'
+     1>d:\github\ig\informatica-grafica-graphic-computing-\hypotrocoid\freeglut project 3d (2012)\freeglut project 3d\main.cpp(61): warning C4244: 'argumento' : conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+     1>d:\github\ig\informatica-grafica-graphic-computing-\hypotrocoid\freeglut project 3d (2012)\freeglut project 3d\main.cpp(62): warning C4244: 'argumento' : conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+     1>d:\github\ig\informatica-grafica-graphic-computing-\hypotrocoid\freeglut project 3d (2012)\freeglut project 3d\main.cpp(63): warning C4244: 'argumento' : conversión de 'GLdouble' a 'GLfloat'; posible pérdida de datos
+     1>d:\github\ig\informatica-grafica-graphic-computing-\hypotrocoid\freeglut project 3d (2012)\freeglut project 3d\main.cpp(183): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>d:\github\ig\informatica-grafica-graphic-computing-\hypotrocoid\freeglut project 3d (2012)\freeglut project 3d\main.cpp(257): warning C4305: '+=' : truncamiento de 'double' a 'GLfloat'
+     1>d:\github\ig\informatica-grafica-graphic-computing-\hypotrocoid\freeglut project 3d (2012)\freeglut project 3d\main.cpp(261): warning C4305: '-=' : truncamiento de 'double' a 'GLfloat'
+         Hipotrocoide.cpp
+     1>d:\github\ig\informatica-grafica-graphic-computing-\hypotrocoid\freeglut project 3d (2012)\freeglut project 3d\hipotrocoide.cpp(27): warning C4244: '=' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+     1>d:\github\ig\informatica-grafica-graphic-computing-\hypotrocoid\freeglut project 3d (2012)\freeglut project 3d\hipotrocoide.cpp(117): warning C4244: 'inicializando' : conversión de 'double' a 'GLfloat'; posible pérdida de datos
+         Cono.cpp
+         Coche.cpp
+     1>d:\github\ig\informatica-grafica-graphic-computing-\hypotrocoid\freeglut project 3d (2012)\freeglut project 3d\coche.cpp(96): warning C4305: 'inicializando' : truncamiento de 'double' a 'GLfloat'
+         Camara.cpp
+     1>d:\github\ig\informatica-grafica-graphic-computing-\hypotrocoid\freeglut project 3d (2012)\freeglut project 3d\camara.h(37): warning C4305: 'inicializando' : truncamiento de 'double' a 'GLfloat'
+     1>d:\github\ig\informatica-grafica-graphic-computing-\hypotrocoid\freeglut project 3d (2012)\freeglut project 3d\camara.cpp(146): warning C4305: '+=' : truncamiento de 'double' a 'GLfloat'
+         VerticeNormal.cpp
+         PuntoVector3D.cpp
+         Malla.cpp
+         FalsoTetraedro.cpp
+         Cara.cpp
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GITHUB\IG\Informatica-Grafica-Graphic-Computing-\Hypotrocoid\freeglut project 3D (2012)\Debug\freeglut project 3D.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\GITHUB\IG\Informatica-Grafica-Graphic-Computing-\Hypotrocoid\freeglut project 3D (2012)\freeglut\lib\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GITHUB\IG\Informatica-Grafica-Graphic-Computing-\Hypotrocoid\freeglut project 3D (2012)\Debug\freeglut project 3D.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GITHUB\IG\Informatica-Grafica-Graphic-Computing-\Hypotrocoid\freeglut project 3D (2012)\Debug\freeglut project 3D.lib" /MACHINE:X86 Debug\Cara.obj
          Debug\FalsoTetraedro.obj
          Debug\Malla.obj
          Debug\PuntoVector3D.obj
@@ -11,9 +36,9 @@
          Debug\Cono.obj
          Debug\Hipotrocoide.obj
          Debug\main.obj
-         freeglut project 3D.vcxproj -> D:\2VIDEOJUEGOS\INFORMATICA GRAFICA\Practica2 IG\IG2\freeglut project 3D (2012)\Debug\freeglut project 3D.exe
-     1>Compilación del proyecto terminada "D:\2VIDEOJUEGOS\INFORMATICA GRAFICA\Practica2 IG\IG2\freeglut project 3D (2012)\freeglut project 3D\freeglut project 3D.vcxproj" (Build destinos).
+         freeglut project 3D.vcxproj -> D:\GITHUB\IG\Informatica-Grafica-Graphic-Computing-\Hypotrocoid\freeglut project 3D (2012)\Debug\freeglut project 3D.exe
+     1>Compilación del proyecto terminada "D:\GITHUB\IG\Informatica-Grafica-Graphic-Computing-\Hypotrocoid\freeglut project 3D (2012)\freeglut project 3D\freeglut project 3D.vcxproj" (Build destinos).
 
 Compilación correcta.
 
-Tiempo transcurrido 00:00:00.38
+Tiempo transcurrido 00:00:04.13
